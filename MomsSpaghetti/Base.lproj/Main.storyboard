@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MomsSpaghetti" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app-logo-text" translatesAutoresizingMaskIntoConstraints="NO" id="Elw-Ii-jIC">
+                                <rect key="frame" x="20" y="84" width="374" height="221"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="D4s-tY-geQ"/>
+                                    <constraint firstAttribute="height" constant="221" id="SKG-wd-PSH"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="221" id="ebT-2L-Ovt"/>
+                                    <constraint firstAttribute="width" constant="374" id="kzO-NN-SoR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xf4-9j-40T">
+                                <rect key="frame" x="67" y="251" width="280" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="J61-6N-Bgu"/>
+                                    <constraint firstAttribute="height" constant="160" id="kPK-R8-x9s"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ox-4b-uhM">
+                                <rect key="frame" x="67" y="451" width="280" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ejq-Ce-Nbd"/>
+                                    <constraint firstAttribute="width" constant="280" id="i0z-rJ-fHM"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="google-g-logo-small.png" imagePlacement="trailing" cornerStyle="large">
+                                    <backgroundConfiguration key="background" strokeWidth="2">
+                                        <color key="strokeColor" red="0.53360635339999996" green="0.29824613680000001" blue="0.6164338171" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Sign in with Google      ">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="22" name="SFProRounded-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                    <color key="baseBackgroundColor" red="0.73725497719999999" green="0.41568624970000001" blue="0.84313726430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Elw-Ii-jIC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BO0-rp-C51"/>
+                            <constraint firstItem="Xf4-9j-40T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="207" id="OOM-B1-8Cy"/>
+                            <constraint firstItem="9Ox-4b-uhM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W9u-K0-VRt"/>
+                            <constraint firstItem="Xf4-9j-40T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hTc-xO-SMU"/>
+                            <constraint firstItem="Elw-Ii-jIC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="lEq-yS-Q8Q"/>
+                            <constraint firstItem="9Ox-4b-uhM" firstAttribute="top" secondItem="Xf4-9j-40T" secondAttribute="bottom" constant="40" id="wKf-ek-0id"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="signInButton" destination="9Ox-4b-uhM" id="1bH-qA-Q9l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GU6-fJ-8sf">
+            <objects>
+                <viewController storyboardIdentifier="SignedInViewController" id="GRm-vZ-YZL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2X0-0Y-uWW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cognito-logo" translatesAutoresizingMaskIntoConstraints="NO" id="HuA-Ac-WcD">
+                                <rect key="frame" x="92.5" y="114" width="229" height="183"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="183" id="4Xs-YO-NGo"/>
+                                    <constraint firstAttribute="width" constant="229" id="Hye-pf-9az"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Are Signed into Cognito Identity Pools" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mpy-Y8-alT">
+                                <rect key="frame" x="23" y="337" width="368" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="edy-5q-8mW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mpy-Y8-alT" firstAttribute="top" secondItem="HuA-Ac-WcD" secondAttribute="bottom" constant="40" id="1oY-Tc-5py"/>
+                            <constraint firstItem="HuA-Ac-WcD" firstAttribute="top" secondItem="edy-5q-8mW" secondAttribute="top" constant="70" id="A9A-cC-bJA"/>
+                            <constraint firstItem="HuA-Ac-WcD" firstAttribute="centerX" secondItem="2X0-0Y-uWW" secondAttribute="centerX" id="pnk-Uc-n3H"/>
+                            <constraint firstItem="Mpy-Y8-alT" firstAttribute="centerX" secondItem="2X0-0Y-uWW" secondAttribute="centerX" id="svx-6l-wvV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YpL-EJ-Gei" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1102.8985507246377" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="app-logo-text" width="535" height="112"/>
+        <image name="app-logo.png" width="333" height="209"/>
+        <image name="cognito-logo" width="267" height="274"/>
+        <image name="google-g-logo-small.png" width="40" height="41"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-momsspaghetti-dev-05029-authRole",
+      "UnauthRoleArn": "arn:aws:iam::389722062468:role/amplify-momsspaghetti-dev-05029-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::389722062468:role/amplify-momsspaghetti-dev-05029-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-momsspaghetti-dev-05029-deployment",
+      "UnauthRoleName": "amplify-momsspaghetti-dev-05029-unauthRole",
+      "StackName": "amplify-momsspaghetti-dev-05029",
+      "StackId": "arn:aws:cloudformation:us-east-1:389722062468:stack/amplify-momsspaghetti-dev-05029/de9b9e30-8322-11ec-b776-0edffc39848f",
+      "AmplifyAppId": "d5kfobu1i3bup"
+    },
+    "categories": {
+      "auth": {
+        "momsspaghetti571ab0db": {}
+      }
+    }
+  }
+}
