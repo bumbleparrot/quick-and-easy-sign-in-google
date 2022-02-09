@@ -1,7 +1,13 @@
 # Sign in With Google and AWS Amplify for iOS with Swift
 This is the demo project showing how to integrate AWS Amplify, Sign in with Google, and iOS.
 
-Install all required libraries via cocoapods.
+## Initialize your amplify project via the ampify CLI tool
+1. Initialize your amplify project via `amplify init`
+2. Add an authentication system to your amplify project via `amplify auth add`
+3. Push the resources to the cloud via `amplify push`
+
+## Install all required libraries via cocoapods.
+1. Install cocoapod dependencies via `pod install`
 
 Make sure to open the workspace using the .xcworkspace file! Build and then run!
 
