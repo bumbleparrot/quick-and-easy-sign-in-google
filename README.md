@@ -1,4 +1,4 @@
-# quick-and-easy-sign-in-google
+# Sign in With Google and AWS Amplify for iOS with Swift
 This is the demo project showing how to integrate AWS Amplify, Sign in with Google, and iOS.
 
 Install all required libraries via cocoapods.
